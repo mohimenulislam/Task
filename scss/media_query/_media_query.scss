@@ -1,0 +1,15 @@
+@media(max-width:375px) {
+    .container {
+        width: 375px;
+        margin: 0 auto;
+    }
+    .main__body {
+        .main__body__text {
+            width: 310px;
+        }
+    }
+    .all__card {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

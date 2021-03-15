@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.card__left .card, .card__middle .card, .card__middle .card__md__last, .card__right .card {
+  border-radius: 5px;
+  width: 350px;
+  -webkit-box-shadow: 5px 5px 10px 5px #ddd;
+          box-shadow: 5px 5px 10px 5px #ddd;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.main__body {
+  background-color: #EFEEF4;
+  overflow-y: auto;
+}
+
+.main__body .main__body__text {
+  text-align: center;
+  padding: 50px 0;
+  width: 535px;
+  margin: 0 auto;
+}
+
+.main__body .main__body__text .text-light {
+  font-weight: 200;
+}
+
+.main__body .main__body__text .text-bold {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.main__body .main__body__text .text-description {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.all__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  padding-bottom: 50px;
+}
+
+.card__left .card {
+  border-top: 3px solid #45d3d3;
+}
+
+.card__middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 20px;
+}
+
+.card__middle .card {
+  border-top: 3px solid #ea5353;
+}
+
+.card__middle .card__md__last {
+  border-top: 3px solid #fcaf4a;
+}
+
+.card__right .card {
+  border-top: 3px solid #549ef2;
+}
+
+.card__information {
+  padding: 20px;
+}
+
+.card__information .card__information__title {
+  margin-bottom: 5px;
+}
+
+.card__information .card__information__description {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.card__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+    margin: 0 auto;
+  }
+  .main__body .main__body__text {
+    width: 310px;
+  }
+  .all__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
